@@ -1,0 +1,13 @@
+.mock__screen2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  .mock__screen2 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,149 @@
+.payment__details {
+  width: 490px;
+  height: 580px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+}
+@media (max-width: 1200px) {
+  .payment__details {
+    margin-top: 2rem;
+    
+
+   
+  }
+}
+
+.payment__details_heading {
+  width: 100%;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (max-width: 580px) {
+  .payment__details_heading {
+  height: 45px;
+    
+
+   
+  }
+}
+.payment__details_desc {
+  width: 100%;
+  font-size: 15px;
+  color: gray;
+  padding: 20px 28px;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+@media (max-width: 580px) {
+  .payment__details_desc {
+    padding: 20px 10px;
+
+   
+  }
+}
+.payment__details_underline {
+  width: 91%;
+}
+.payment__details_list {
+  width: 100%;
+  padding: 20px 28px;
+  box-sizing: border-box;
+}
+@media (max-width: 580px) {
+  .payment__details_list {
+    padding: 20px 10px;
+
+   
+  }
+}
+.payment__details_listitem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 450;
+}
+.pdl__bottom {
+  font-size: 13px;
+}
+.payment__details_listitemb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0px;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.payment__details_bottom {
+  width: 100%;
+  /* padding: 0px 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+@media (max-width: 580px) {
+  .payment__details_bottom {
+  margin-top: 0px;
+   
+  }
+}
+
+.payment__details_btn {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #027368;
+  color: white;
+  font-size: 22px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.payment__details_btn > * {
+  margin: 0px 3px;
+}
+@media (max-width: 580px) {
+  .payment__details {
+    width: 100%;
+    margin-top: 2rem;
+    height: 420px;
+  }
+  .payment__details_heading {
+    font-size: 15px;
+  }
+  .payment__details_desc {
+    font-size: 11px;
+  }
+  .payment__details_listitem {
+    font-size: 10px;
+  }
+  .pdl__bottom {
+    font-size: 7px;
+  }
+  .payment__details_listitemb {
+    font-size: 20px;
+  }
+  .payment__details_btn {
+    height: 48px;
+    font-size: 14px;
+  }
+  .payment__details_lock {
+    width: 20px;
+  }
+}

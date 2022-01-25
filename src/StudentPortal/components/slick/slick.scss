@@ -1,0 +1,71 @@
+// @import "./design-rules/color-rules.scss";
+// @import "./design-rules/typography-rules.scss";
+.slick-next {
+  background: url("../../assets/icons/nexxt.svg") center
+    center no-repeat !important;
+    right: -45px !important;
+    width: 35px  !important;
+    height: 35px  !important;
+  &::before {
+    display: none;
+  }
+}
+
+.slick-prev {
+  background: url("../../assets/icons/prev.svg") center
+    center no-repeat !important;
+    width: 35px  !important;
+    height: 35px  !important;
+
+      left: -41px !important;
+
+  &::before {
+    display: none;
+  }
+}
+.slick__container{
+    width: 80%;
+    margin:2rem auto;
+    @media screen and (max-width:450px){
+        width: 65%;
+        margin:2rem 60px;
+
+
+    }
+    
+}
+
+.number{
+    background-color: red;
+    height: 32px;
+    display: flex !important;
+    justify-content: center;
+    width: 34px !important;
+    border-radius: 4px;
+    align-items: center;
+    margin:0 5px;
+    
+
+}
+.number1{
+    background-color: #6FCF97;
+    height: 32px;
+    display: flex !important;
+    justify-content: center;
+    width: 34px !important;
+    border-radius: 4px;
+    align-items: center;
+    margin:0 5px;
+  
+}
+.number2{
+    background-color: #f2f2f2;
+    height: 32px;
+    display: flex !important;
+    justify-content: center;
+    width: 34px !important;
+    border-radius: 4px;
+    align-items: center;
+    margin:0 5px;
+   
+}

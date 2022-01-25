@@ -1,0 +1,29 @@
+.settings__filled_btn {
+  width: 300px;
+  height: 65px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+.sf__btn_text {
+  padding-left: 2%;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media (max-width: 440px) {
+  .settings__filled_btn {
+    width: 140px;
+    height: 30px;
+  }
+  .sf__btn_text {
+    padding-left: 5%;
+    font-size: 9px;
+  }
+  .sf__btn_icon {
+    width: 11px;
+  }
+}

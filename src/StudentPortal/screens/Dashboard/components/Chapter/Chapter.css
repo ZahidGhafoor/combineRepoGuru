@@ -1,0 +1,106 @@
+.chapter__screen {
+  width: 100%;
+  min-height: 100vh;
+}
+.chapter__question_area {
+  width: 100%;
+  padding: 0px 40px;
+}
+.chapter__question_header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.chapter__qh_top,
+.chapter__qh_bottom {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.chapter__qh_top {
+  font-size: 14px;
+}
+.chapter__qh_bottom {
+  font-size: 16px;
+  font-weight: 500;
+  align-items: flex-end;
+}
+.chapter__qhb_right {
+  margin-bottom: -5px;
+}
+.chapter__question_body {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.chapter__question_mediabox {
+  display: flex;
+  padding: 20px 0px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pagination__item {
+  width: 33px !important;
+  height: 33px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+  background-color: lightgray !important;
+}
+.chapter__buttons_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.chapter__pagination_wrapper {
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-1v2lvtn-MuiPaginationItem-root {
+  display: none;
+}
+.MuiPaginationItem-previousNext {
+  background-color: #2b3040 !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+.pagination__play_icon {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.banner__wrapper {
+  padding: 40px;
+}
+@media (max-width: 380px) {
+  .chapter__qh_top {
+    font-size: 9px;
+  }
+  .chapter__qh_bottom {
+    font-size: 15px;
+  }
+  .chapter__qhb_right {
+    margin-bottom: 0;
+  }
+  .chapter__question_area {
+    width: 100vw;
+    padding: 0px 10px;
+  }
+  .chapter__buttons_wrapper {
+    width: 100vw;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+  .chapter__pagination_wrapper {
+    width: 100vw;
+  }
+}

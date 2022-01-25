@@ -1,0 +1,114 @@
+.chapter__card {
+  width: 222px;
+  height: 248px;
+  border-radius: 15px;
+  padding: 20px 22px;
+  background-color: white;
+  transition: 0.3s;
+}
+.chapter__card:hover {
+  box-shadow: 0px 9px 26px 0px #0000001a;
+}
+.chapter__card_header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.chapter__card_number {
+  font-size: 9px;
+  font-weight: 500;
+  color: #9c9c9c;
+  width: 70px;
+  height: 29px;
+  border-radius: 28px;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chapter__card_body {
+  width: 100%;
+  height: 110px;
+  padding-top: 5px;
+}
+.chapter__card_subject {
+  color: #979797;
+  font-size: 12px;
+}
+.chapter__card_name {
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.chapter__card_footer {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.chapter__card_footertop {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ccfb__progress_wrap {
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+.ccft__left,
+.ccft__right {
+  font-size: 10px;
+  font-weight: 500;
+}
+.ccfb__progress {
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .chapter__card {
+    width: 162px;
+    height: 182px;
+    border-radius: 15px;
+    padding: 15px 22px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .chapter__card_header {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .chapter__card_name {
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 5px;
+  }
+  .chapter__card_body {
+    width: 100%;
+    height: 70px;
+    padding-top: 5px;
+  }
+  .ccft__left,
+  .ccft__right {
+    font-weight: 400;
+  }
+  .chapter__card_number {
+    width: 60px;
+    height: 24px;
+  }
+  .chapter__card_subject {
+    font-size: 8px;
+  }
+  .chapter__card_footer {
+    height: 30px;
+  }
+}

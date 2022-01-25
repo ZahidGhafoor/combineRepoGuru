@@ -1,0 +1,117 @@
+.settings__box1 {
+  display: flex;
+  flex-basis: 738px;
+  padding: 10px 3%;
+  border-radius: 20px;
+  background-color: white;
+  flex-direction: column;
+  height: 620px;
+}
+.settings__box1_label {
+  color: lightgray;
+  padding: 10px 4px;
+  font-size: 17px;
+  font-weight: 450;
+}
+
+.sb1__primary__heading {
+  margin: 10px 0px;
+  font-size: 33px;
+}
+.sb1__subheading {
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.react-tel-input input {
+  width: 100% !important;
+  height: 60px !important;
+  border: 1px solid lightgray !important;
+  border-radius: 10px !important;
+  font-size: 17px !important;
+
+  outline: none !important;
+}
+.flag-dropdown {
+  border-right: none !important;
+  background-color: transparent !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.flag-dropdown:hover {
+  border: 1px solid lightgray !important;
+  border-right: none !important;
+  background-color: transparent !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.sb1__langinfo_containerleft,
+.sb1__langinfo_containerright {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+}
+.sb1__langinfo_desc {
+  font-size: 12px;
+  color: #979797;
+  margin-left: 5px;
+}
+.sb1__language_selector {
+  border: 1px solid lightgray;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+.flag-select__btn:after,
+.flag-select__btn[aria-expanded="true"]:after {
+  display: none !important;
+}
+.flag-select__options,
+.flag-select__option flag-select__option--placeholder {
+  width: 100% !important;
+}
+.sb1__phoneinfo_inputleft {
+  width: 100%;
+  height: 60px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-size: 17px;
+  outline: none;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+@media (max-width: 375px) {
+  .sb1__primary__heading {
+    font-size: 20px;
+  }
+  .sb1__subheading {
+    font-size: 11px;
+    margin: 8px 15px;
+  }
+  .sb1__langinfo_desc {
+    display: none;
+  }
+
+  .react-tel-input input,
+  .sb1__phoneinfo_inputleft,
+  .sb1__language_selector {
+    height: 46px !important;
+  }
+  .sb1__language_selector {
+    padding: 10px 0px;
+  }
+  .ph__right_top {
+    font-size: 10px;
+  }
+  .ph__right_bottom {
+    font-size: 14px;
+  }
+}

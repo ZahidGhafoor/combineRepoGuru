@@ -1,0 +1,39 @@
+.partially__filled_btn2 {
+  width: 210px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 2px solid #007500;
+}
+.pf2__btn_left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007500;
+  color: white;
+}
+.pf2__btn_right {
+  color: #007500;
+  width: 46px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+.pf2__btn_right2 {
+  color: #007500;
+  width: 46px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #007500;
+}

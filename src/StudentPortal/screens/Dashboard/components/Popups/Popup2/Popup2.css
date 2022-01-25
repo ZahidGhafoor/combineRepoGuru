@@ -1,0 +1,63 @@
+.mocktest__popup2_backdrop {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  background-color: #d6ffd69a;
+}
+.mocktest__popup2_box {
+  width: 380px;
+  min-height: 150px;
+  background-color: #c7fadb;
+  box-sizing: border-box;
+}
+.mocktest__popup2_header {
+  width: 100%;
+  height: 32px;
+  background-color: #007500;
+  color: white;
+  position: relative;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.mocktest__popup2_close {
+  cursor: pointer;
+}
+.mocktest__popup2_body {
+  width: 100%;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.mocktest__popup2_lighttext {
+  font-size: 11px;
+}
+.mocktest__popup2_boldtext {
+  font-size: 11px;
+  font-weight: 700;
+}
+.mocktest__popup2_bottom {
+  width: 100%;
+  display: flex;
+}
+.mocktest__popup2_btn {
+  margin-left: 15px;
+  background-color: white;
+  font-size: 9px;
+  height: 25px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+}

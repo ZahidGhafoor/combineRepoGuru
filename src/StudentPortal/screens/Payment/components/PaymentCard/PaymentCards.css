@@ -1,0 +1,47 @@
+.payment__cards {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  /* overflow: scroll; */
+}
+@media screen and (max-width:1250px){
+  .payment__cards{
+    overflow: scroll;
+  }
+}
+.payment__card {
+  width: 270px;
+  height: 200px;
+}
+@media screen and (max-width:550px){
+  .payment__card{
+    height: 130px;
+
+  }
+}
+
+@media screen and (max-width:550px){
+  .card__imgs{
+    height: 128px;
+
+  }
+}
+@media screen and (max-width:550px){
+  .card__img{
+    height: 121px;
+
+  }
+}
+.payment__card_mobile {
+  display: none;
+}
+/* @media (max-width: 900px) {
+  .payment__cards {
+    display: none;
+  }
+  .payment__card_mobile {
+    display: block;
+  }
+} */

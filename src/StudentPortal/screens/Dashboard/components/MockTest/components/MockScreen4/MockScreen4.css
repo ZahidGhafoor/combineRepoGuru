@@ -1,0 +1,27 @@
+.mock__screen4 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ms4__title2_wrap {
+  display: flex;
+  padding: 10px 0;
+}
+.ms4__body_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.ms4__body_left,
+.ms4__body_center {
+  width: 80px;
+}
+.ms4__body_right {
+  width: 130px;
+}
+.ms4__title2_left,
+.ms4__title2_right {
+  width: 80px;
+}

@@ -1,0 +1,11 @@
+.multi__selector {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 60px;
+}
+.multi__drop_icon {
+  position: absolute;
+  right: 10px;
+}

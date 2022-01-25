@@ -1,0 +1,41 @@
+.topbar__wrapper {
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #027368;
+  height: 74px;
+}
+.topbar__rightbox {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+.topbar__right_info {
+  padding-left: 10px;
+}
+.topbar__profile {
+  width: 47px;
+  height: 47px;
+}
+.topbar__info_name {
+  color: #ffffff;
+  font-size: 18px;
+}
+.topbar__info_email {
+  color: #c4c4c4;
+  font-size: 12px;
+}
+@media (max-width: 550px) {
+  .topbar__wrapper {
+    padding: 0px 2rem;
+  }
+  .topbar__right_info {
+    display: none;
+  }
+  .topbar__profile {
+    margin-left: 50px;
+  }
+}

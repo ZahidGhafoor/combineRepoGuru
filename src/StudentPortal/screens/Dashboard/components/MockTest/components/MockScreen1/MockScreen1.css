@@ -1,0 +1,47 @@
+.mock__screen1 {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+}
+.mack__screen1_left {
+  flex: 0.5;
+  padding: 2%;
+}
+.mack__screen1_right {
+  flex: 1;
+  padding: 2%;
+}
+.start__film_btn {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  border-radius: 2px;
+  background-color: #444b53;
+  cursor: pointer;
+}
+.mock__screen1_label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+.mock__screen1_label > span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.mock__question_text {
+  padding: 2%;
+  font-weight: 600;
+}
+@media (max-width: 375px) {
+  .mock__screen1 {
+    flex-direction: column;
+  }
+  .mock__question_text {
+    font-size: 14px;
+  }
+}

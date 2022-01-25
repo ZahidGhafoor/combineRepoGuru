@@ -1,0 +1,445 @@
+.payment__form_wrapper {
+  box-sizing: border-box;
+}
+.payment__form_item {
+  height: 95px;
+  font-size: 17px;
+  font-weight: 450;
+  color: grey;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 15px;
+  @media screen and (max-width:580px){
+    margin-top: 0px;
+
+
+  }
+}
+.payment__form_label {
+  margin-left: 15px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  @media screen and (max-width:580px){
+    margin-bottom: 0px;
+  font-size: 10px;
+
+
+
+  }
+}
+.payment__form_input {
+  border: 1px solid #c3cff4;
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 17px;
+  @media screen and (max-width:580px){
+    font-size: 11px;
+  height: 35px;
+  border-radius: 4px;
+
+
+
+
+
+  }
+}
+// .payment__form_input::-webkit-input-placeholder {
+//   /* Edge */
+//   color: black;
+// }
+
+// .payment__form_input:-ms-input-placeholder {
+//   /* Internet Explorer 10-11 */
+//   color: black;
+// }
+
+// .payment__form_input::placeholder {
+//   color: black;
+// }
+.p_90 {
+  width: 84%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 93%;
+    margin-right: 0px;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    height: 50px;
+  width: 98%;
+
+
+  }
+}
+.p_65 {
+  width: 55%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    // width: 100%;
+    margin-right: 2rem;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    margin-right: 1rem;
+
+    height: 50px;
+
+
+
+  }
+
+}
+.p_35 {
+  width: 25%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 35%;
+    margin-right: 0px;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    width: 39%;
+
+    height: 50px;
+
+
+  }
+
+}
+.p_50 {
+  width: 40%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 45%;
+    margin-right: 2rem;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    margin-right: 1rem;
+
+    height: 50px;
+
+
+  }
+}
+.p_40 {
+  width: 40%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 45%;
+    margin-right: 0px;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    width: 49%;
+
+    height: 50px;
+
+
+  }
+}
+.p_55 {
+  width: 40%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 45%;
+    margin-right: 2rem;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    margin-right: 1rem;
+
+    height: 50px;
+
+
+  }
+
+}
+.p_45 {
+  width: 40%;
+  margin-bottom: 1.9rem;
+  margin-right: 35px;
+  @media screen and (max-width:1200px){
+    width: 45%;
+    margin-right: 0px;
+  }
+  @media screen and (max-width:580px){
+    margin-bottom: 15px;
+    height: 50px;
+    width: 49%;
+
+
+
+  }
+  .country-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .payment__phoneinfo_inputleft {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #C3CFF4 !important;
+    border-radius: 10px;
+    font-size: 17px;
+    outline: none;
+    @media screen and (max-width:580px){
+      font-size: 11px;
+    height: 35px;
+    border-radius: 4px;
+  
+  
+  
+  
+    }
+  
+  }
+}
+
+.p_30 {
+  width: 20%;
+}
+@media (max-width: 375px) {
+  // .payment__form_wrapper {
+  //   width: 100vw;
+  // }
+  // .payment__form_item {
+  //   margin: 0px 2px;
+  // }
+  // .payment__form_item {
+  //   margin-right: 0px;
+  // }
+  // .payment__form_wrapper {
+  //   padding: 10px;
+  // }
+  // .payment__form_input {
+  //   height: 42px;
+  //   margin-top: 5px;
+  //   font-size: 12px;
+  // }
+  // .payment__form_label {
+  //   font-size: 12px;
+  // }
+  // .payment__form_item {
+  //   height: 75px;
+  // }
+}
+
+
+
+.paypal__payment{
+  .p_100 {
+    width: 84%;
+    margin-bottom: 1.9rem;
+    margin-right: 35px;
+    @media screen and (max-width:1200px){
+      width: 93%;
+      margin-right: 0px;
+    }
+    @media screen and (max-width:580px){
+      margin-bottom: 0px;
+      height: 50px;
+    width: 98%;
+  
+  
+    }
+    .paypal__form_inputt {
+      border: 1px solid #c3cff4;
+      border-radius: 10px;
+      width: 100%;
+      height: 60px;
+      padding: 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      outline: none;
+      font-size: 17px;
+      @media screen and (max-width:580px){
+        font-size: 11px;
+      height: 45px;
+      border-radius: 4px;
+    
+    
+    
+    
+    
+      }
+    }
+  }
+  .payment__form_itemm {
+    height: 95px;
+    font-size: 17px;
+    font-weight: 450;
+    color: grey;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 15px;
+    @media screen and (max-width:580px){
+      margin-top: 0px;
+  
+  
+    }
+  }
+  .payment__form_labell {
+    margin-left: 15px;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    @media screen and (max-width:580px){
+      margin-bottom: 4px;
+      font-size: 13px;
+  
+  
+    }
+
+  }
+  .paypal__form_input {
+    border: 1px solid #c3cff4;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 17px;
+  }
+  .icon{
+    margin-bottom: 1rem;
+  }
+  
+  .check1{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    @media screen and (max-width:580px){
+      margin-top: 0rem;
+
+  
+  
+    }
+    
+    .line{
+      color: gray;
+      font-size: 15px;
+      @media screen and (max-width:580px){
+        font-size: 10px;
+
+    
+    
+      }
+      .check__para{
+        font-size: 11px;
+        @media screen and (max-width:580px){
+          font-size: 8px;
+        }
+
+      }
+    }
+  }
+}
+
+.transact{
+  font-size: 14px;
+  max-width: 320px;
+  margin-left: 1rem;
+  @media screen and (max-width:580px){
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .para{
+    margin-top: 10px;
+    color: gray;
+  }
+}
+
+
+.lecense__payment{
+  width: 400px;
+  @media screen and (max-width:1200px){
+    width: 497px;
+  }
+  @media screen and (max-width:580px){
+    width: 340px;
+  }
+  .hheading{
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+  .email__block{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    padding:1.5rem 1.5rem;
+    margin-bottom: 2rem;
+    .upper{
+      margin-bottom: 15px;
+      display: flex;
+      gap: 3.5rem;
+      .heading{
+        font-size: 14px;
+        color: gray;
+        @media screen and (max-width:580px){
+          font-size: 11px;
+
+        }
+      }
+      .upper__email{
+        border: none;
+        outline: none;
+      }
+    }
+    .bottom{
+      margin-top: 15px;
+      display: flex;
+      gap: 1rem;
+      .heading{
+        font-size: 14px;
+        color: gray;
+        @media screen and (max-width:580px){
+          font-size: 11px;
+
+        }
+      }
+      .upper__email{
+        border: none;
+        outline: none;
+      }
+    }
+    }
+
+    .buy__block{
+      font-size: 14px;
+      border: 1px solid rgba(0, 0, 0, 0.205);
+      border-radius: 10px;
+      padding:1.5rem 1.5rem ;
+      margin-bottom: 2rem;
+      .buy__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+      }
+      .para{
+        font-size: 10px;
+        color: gray;
+        margin-top: 10px;
+      }
+    }
+
+}

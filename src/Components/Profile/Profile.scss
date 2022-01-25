@@ -1,0 +1,52 @@
+.pfile__container {
+  .pfile__heading {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 2rem 0;
+  }
+  .pfile__inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 650px) {
+      justify-content: center;
+    }
+
+    // width: 100vw;
+    .input1 {
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+    .input1__heading {
+      font-size: 9px;
+      //   color: gray;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .enter__input {
+      border: none;
+      font-size: 11px;
+      border-radius: 8px;
+      outline: none;
+      width: 240px;
+      color: gray;
+      background-color: rgba(220, 220, 220, 0.329);
+      padding: 10px;
+    }
+  }
+  .pfile__bottom__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer__btn {
+      background-color: rgba(0, 41, 121, 1);
+      color: white;
+      text-align: center;
+      width: 250px;
+      padding: 18px 0;
+      //   font-weight: 600;
+      margin: 3rem 0;
+      border-radius: 8px;
+    }
+  }
+}

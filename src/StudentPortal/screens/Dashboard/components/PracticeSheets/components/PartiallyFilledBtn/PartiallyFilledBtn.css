@@ -1,0 +1,26 @@
+.partially__filled_btn {
+  width: 210px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #027368;
+  border-radius: 5px;
+}
+.pf__btn_left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #027368;
+  color: white;
+}
+.pf__btn_right {
+  color: #027368;
+  width: 46px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.settings__box5 {
+  display: flex;
+  flex-basis: 738px;
+  padding: 15px 5%;
+  border-radius: 20px;
+  background-color: white;
+  flex-direction: column;
+  height: 620px;
+}
+.settings__box5_label {
+  padding: 10px 4px;
+  font-size: 17px;
+  font-weight: 450;
+}
+.change__pass_savebtn {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #027368;
+  margin: 20px 5px;
+  cursor: pointer;
+}
